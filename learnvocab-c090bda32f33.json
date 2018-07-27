@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "learnvocab-210607",
+  "private_key_id": "c090bda32f33618d2a9759b85af32c7ad4b3af75",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDIRyaMnTG/qIF2\n8A0mq+BvLcdYXzcF6AxrHtawAZWPHpoodGRUAQlmZRV5+rJBljrbHvFe8sDpp0Gv\nVw9ZWLlClLL8GOCuGvpDeS/YgcmkBAyWadTJa8T9seN660LMnTppPwCHvdFZRbjv\njX+0csa6QLYC1iN+gOnOgGcAgvoaOy67nNy+OikckArHqgRm3BCh78kFQWy1RCWT\nKRUTWH28JX9ioyr87jh88YSuKbiYQ+IOBzswjyzoOTSpN5DTRhOIWv7aoyL6j0K4\nlBP4YQcSFx/j6At37vz6+j10ClR6W65sX3sL50G4PzBPQ2PAWRGekbhTiGa4Shox\nsXVNAWIXAgMBAAECggEAAybDFOfr71Y2Trw8ER9UxI+pj+0XPqcGMp6lao4PouFE\n9yZgwZSuyS7U3ihnJOZkE6Y4nbS3+z5hjysLV7zzYSMcuI3X2bS7WRzViZ2o0st/\nCkHp9t5d7E9Edv1aa4rGMm0xE80nsZZlXmKptLg8raATPR2FTaZiB3RKvOn9XRxG\nWQoE8R14MYM2vdwCAuxW1fYH0VvKJEa7LmgLO0C0JS+Pav4e1h1SZ72X8hVYGYp3\niqO4sR3+stWWCv/vphriOZRtyFRyX8AwM21xF1kQvxVVP2XQnhf2ihtLJRE/c911\nGBLGVUrVS56+BvmGlvX1xEB1WAh/3Rz8gzpbAKUlQQKBgQDulXbh9UxDM/NPennE\nZ8LKzw1+fF9KhBTiyOTJHMsYiUcIGjrJ8vjH+l40mj9knqeN476tjcly7JJfsKHF\nOwRA5PdqBUO9fvQRNjp24VbAb7K4XrLhoI79YmFUgQgrJ5eOpQ9UkMvrJvELVczu\n5viS5MS/LHdxJQi9Ew286Q7z0wKBgQDW5dgtW6uQSsfjCb1hREKiyDgMvkVRvonm\nEN3BQx9fAhjOsYSslsfqwuISl9nNxhhTFi5hsG7EpxVCtyv58oKFZtICA9IBbSm4\nyrau6NPf/UcNi4pFtvuM15k2yPgmWg75bcnIvuhKR3v64+rQdf1Y6pD/jk3jQQFQ\nlVJbWHeiLQKBgFpc9dgDRk01wfPaWYBQJHEYFu5PQPBCMn7qw+yAIVQ7ulGRTa7r\nfdqQM1oNCfGcPa36EmA9kY0bmRzxE3RWM/g4QJVBRTTifqJ+PYqFMoxUQgaep3XZ\nkA7cUizlaiieKEL4tWO8K9/2sdkvOB1MEd3hE7uspdiOxE6Ihu2EAAvNAoGAFbKF\nPicoTlxOjEzacyyqMbdXeWnoo9VCJRmE2lOFolka2huwUqCytLBSlSAB3LXolNMD\ngdeHh5F7Iw5NgWIL7Z4xDAUIuh4kfUTyZvyZD9+JwgNZxaoxAcpu7Mojy/OB2YtN\nOViVKZLIIM/MUJnpJ4Yfd74NfSl+EX3SH+jxw00CgYBmhfgU0zmSFzwurRInkYto\nvnx4LkqeuN1UUpCuzdlhCd/IzZe6iMYXWJMGz0t0zBXodH0H/RVjFupQfM5N0QX5\noMYx5BWRwoNRGpw2LXNLI6KZyDzgAh59H75mASpxoWMMxxYFJAVuocQxIczYsCh0\nuE7oejQNGx5q+X6Qci5GFg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "learnvocab@learnvocab-210607.iam.gserviceaccount.com",
+  "client_id": "108509705102838018298",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/learnvocab%40learnvocab-210607.iam.gserviceaccount.com"
+}
