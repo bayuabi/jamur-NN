@@ -11,11 +11,11 @@ import csv
 url = 'https://jamur-ca24c.firebaseio.com/'
 firebase = firebase.FirebaseApplication(url,None)
 
-scope = ['https://spreadsheets.google.com/feeds',
-         'https://www.googleapis.com/auth/drive']
-creds = ServiceAccountCredentials.from_json_keyfile_name('learnvocab-c090bda32f33.json',scope)
-client = gspread.authorize(creds)
-sheet = client.open("Data Suhu").sheet1
+#scope = ['https://spreadsheets.google.com/feeds',
+         #'https://www.googleapis.com/auth/drive']
+#creds = ServiceAccountCredentials.from_json_keyfile_name('learnvocab-c090bda32f33.json',scope)
+#client = gspread.authorize(creds)
+#sheet = client.open("Data Suhu").sheet1
 
 ser = serial.Serial("/dev/ttyUSB0")
 
@@ -96,11 +96,14 @@ with open('data-suhu.csv', 'w', newline='') as f:
         ser.write(kirim)
         #print('Input: ', x_test*100, '  Output:', output)
         print('InTemp:' ,data[2], '  InHum:', data[3], '  OutTemp:', data[0], '  OutHum:', data[1], '  OutVolt: ',output)
-        firebase.patch('',{'suhu dalam':data[2]})
-        firebase.patch('',{'kelembapan dalam':data[3]})
-        now=datetime.datetime.now()
+        firebase.patch('',{'/jamurANN/suhu':data[2]})
+        firebase.patch('',{'/jamurANN/kelembapan':data[3]})
+        firebase.patch('',{'/jamurANN/kec-kipas':output.astype(str)[0,0]})
+        firebase.patch('',{'/jamurANN/kec-mist':output.astype(str)[0,1]})
 
-        thewriter = csv.writer(f)
-        thewriter.writerow([now.strftime("%H:%M:%S"),data[2], data[3], data[0], data[1]])
+        #now=datetime.datetime.now()
+
+        # thewriter = csv.writer(f)
+        # thewriter.writerow([now.strftime("%H:%M:%S"),data[2], data[3], data[0], data[1]])
         #row = [now.strftime("%H:%M:%S"),data[2], data[3], data[0], data[1]]
         #sheet.insert_row(row, len(sheet.get_all_values())+1)
